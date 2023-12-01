@@ -21,15 +21,36 @@ canvas {
 }
 
 .toolbox {
-    background-color: black;
+    background-color: rgba(100, 28, 28, 0.781);
     padding: 1rem;
-    width: 601px;
+    width: 801px;
 }
 
 .toolbox button {
     border: none;
-    padding: 0.5rem;
+    padding: 0.25rem;
     font-size: 1.2rem;
     cursor: pointer;
     width: 30px;
+}
+
+#size {
+    color: #fff;
+    padding: 5px;
+}
+
+#color {
+    cursor: pointer;
+    width: 30px;
+    position: relative;
+    left: 82%;
+}
+
+#clear {
+    font-size: 20px;
+    width: 30px;
+    background-color: transparent;
+    height: 25px;
+    position: relative;
+    left: 70%;
 }
